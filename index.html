@@ -7,6 +7,15 @@
     <title>Velkommen</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/layout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Hanalei&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Rozha+One&family=Rubik+Dirt&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Hanalei&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Rasa:ital,wght@0,300..700;1,300..700&family=Rozha+One&family=Rubik+Dirt&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Hanalei&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Rasa:ital,wght@0,300..700;1,300..700&family=Rozha+One&family=Rubik+Dirt&display=swap" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -19,10 +28,10 @@
         <ul class="menu">
           <li><a href="index.html" class="forside">Velkommen</a></li>
           <li>
-            <a href="tema_2_3.html" class="tema_2_3">Projekter i tema 2 og 3</a>
+            <a href="tema_2_3.html" class="tema_2_3">Tema 2 & 3 - Grundlæggende web og UX/UI</a>
           </li>
           <li>
-            <a href="tema_4_5.html" class="tema_4_5">Projekter i tema 4 og 5</a>
+            <a href="tema_4_5.html" class="tema_4_5">Tema 4 & 5 - Grundlæggende animation og indhold</a>
           </li>
           <li>
             <a href="om_mig.html" class="om_mig">Om mig</a>
@@ -38,11 +47,48 @@
     <section class="hero_section"></section>
     <main>
       <div class="intro">
-        <h1>Mit portfolio</h1>
-        <h2>Isabella Hoeg Hansen</h2>
-        <p>Velkommen til! Hvor fedt du har lyst til at udforske mit portfolio. Jeg læser multimediedesign på KEA, Københavns Erhversakedemi, hvor jeg er ved at afslutte 1. semester. På denne side kan du udforske og høre nærmere om min idéer og processer igennem de projekter, vi har arbejdet med på første semester. Klik dig igennem undersiderne og kom med rundt i de forskellige temaer. Er du mere nysggerig på mig, kan du på sidste side læse mit cv og høre mere om, hvad jeg har lavet, inden jeg startede uddannelse på KEA. Enjoy!</p>
-        <img src="img/mig.webp" alt="mig" />
+        <div class="lodret_tekst">
+          <h1>Mit portfolio</h1>
+        </div>
+        <div class="introduktion">
+          <div>
+            <h2>Isabella Hoeg Hansen</h2>
+            <h3>Velkommen til!</h3>
+            <p>Fedt du har lyst til at udforske mit portfolio. Jeg hedder Isabella, og jeg læser multimediedesign på KEA, Københavns Erhversakedemi, hvor jeg er ved at afslutte 1. semester. På dette site kan du udforske og høre nærmere om min idéer og processer igennem de projekter, vi har arbejdet med på første semester. Klik dig igennem undersiderne og kom med rundt i de forskellige temaer. Er du mere nysggerig på mig, kan du på sidste side læse mit cv og høre mere om, hvad jeg har lavet, inden jeg startede uddannelse på KEA. Enjoy!</p>
+          </div>
+          <div>
+            <h3 class="citat">"Jeg har altid elsket at være kreativ"</h3>
+          </div>
+        </div>
       </div>
+      <div class="img_mig">
+        <img class="mig" src="img/mig.webp" alt="mig" />
+      </div>
+      <div class="knap_til_om_mig">
+        <a href="om_mig.html" class="knap_om_mig">Hvem er jeg?</a>
+      </div>
+      <div class="intro_til_projekter">
+        <h3>Mine projekter:</h3>
+        <p>På første semester har vi været igennem fire forskellige temaer, og jeg har på dette site opdelt temaerne i to undersider. På første underside kan du se og læse mere om temaerne "grundlæggende web" samt "grundlæggende UX/UI", hvor vi kodede hjemmesider og særligt havde fokus på, hvordan et site bliver opbygget. På næste underside, der omhandler "grundlæggende animation" og "grundlæggende indhold" blev sværhedsgraden skruet op, og vi begik os nu i kast med at lære om animationer, lyd, videoer mm.</p>
+      </div>
+      <section class="projekterne">
+        <div>
+          <p class="projekter">T2 - grundlæggende web</p>
+          <a href="tema_2_3.html" class="web">Vil du se mere?</a>
+        </div>
+        <div>
+          <p class="projekter">T3 - grundlæggende UX/UI</p>
+          <a href="tema_2_3.html" class="ux_ui">Vil du se mere?</a>
+        </div>
+        <div>
+          <p class="projekter">T4 - grundlæggende animation</p>
+          <a href="tema_4_5.html" class="animation">Vil du se mere?</a>
+        </div>
+        <div>
+          <p class="projekter">T5 - grundlæggende indhold</p>
+          <a href="tema_4_5.html" class="indhold">Vil du se mere?</a>
+        </div>
+      </section>
     </main>
     <footer></footer>
     <script src="js/menu.js"></script>

@@ -34,9 +34,12 @@ html {
   --primary-color: rgb(59, 55, 55);
   --secondary-color: blue;
 }
-
+.logo img {
+  width: 30%;
+  padding: 10px;
+}
 header {
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 100;
   display: flex;
@@ -215,6 +218,46 @@ p {
   padding: 1px 15px;
   text-align: center;
 }
+/* tema 2 og 3 */
+.anden_h3 {
+  font-family: rubik_dirt;
+  color: blue;
+  padding: 15px;
+}
+.t2 {
+  padding: 5px 15px;
+}
+.min_computer_img {
+  filter: grayscale(100%);
+  border: 1px solid grey;
+}
+.billedtekst {
+  font-style: oblique;
+  font-family: courier_prime;
+  font-size: 12px;
+}
+.tekst_t2 {
+  padding-right: 15px;
+}
+.img_t2 {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img1 {
+  aspect-ratio: 1 / 2;
+  grid-row: 1 / span 2;
+}
+.img2 {
+  aspect-ratio: 1 / 1;
+  grid-column: 2 / span 1;
+}
+.img3 {
+  aspect-ratio: 1 / 1;
+  grid-column: 2 / span 1;
+  grid-row: 1;
+}
+
 @media (min-width: 850px) {
   h1 {
     font-family: rubik_dirt;

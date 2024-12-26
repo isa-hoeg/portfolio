@@ -120,6 +120,35 @@ header {
     font-size: 15px;
   }
 }
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+.footer_menu {
+  display: flex;
+  list-style: none;
+  font-family: courier_prime;
+  color: blue;
+}
+.footer_menu li {
+  font-size: 12px;
+  margin-top: 20px;
+}
+.footer_menu a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.ikoner {
+  display: flex;
+  padding-left: 20px;
+  width: 25%;
+}
+.ikoner a {
+  margin-left: 5px;
+  margin-top: 10px;
+}
 body {
   background-color: rgb(243, 244, 238);
 }
@@ -201,9 +230,8 @@ p {
   color: blue;
   font-family: courier_prime;
   border: 1px solid blue;
-  padding: 5px;
+  padding: 7px;
   font-size: 15px;
-  margin-bottom: 20px;
   text-align: center;
 }
 .web:hover,
@@ -215,7 +243,7 @@ p {
   border-color: var(--primary-color);
 }
 .projekterne {
-  padding: 1px 15px;
+  padding: 15px;
   text-align: center;
 }
 /* tema 2 og 3 */

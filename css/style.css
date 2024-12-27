@@ -187,6 +187,21 @@ p {
 .portraet {
   border: 1px solid grey;
 }
+.cv {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid gray;
+}
+.cv_sted {
+  list-style-position: inside;
+  font-family: rubik_dirt;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.cv_sted:hover {
+  font-size: 16px;
+  color: blue;
+}
 @media (min-width: 850px) {
   h1 {
     font-size: 75px;
@@ -229,4 +244,11 @@ p {
     font-size: 22px;
   }
   /* tema 2 & 3 */
+  /* OM MIG */
+  .cv_sted {
+    font-size: 18px;
+  }
+  .cv_sted:hover {
+    font-size: 22px;
+  }
 }

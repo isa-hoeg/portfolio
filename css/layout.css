@@ -227,7 +227,8 @@ footer {
   gap: 10px;
 }
 
-.lollo {
+.lollo,
+.portraet {
   filter: brightness(70%);
 }
 .tekst_img {
@@ -236,17 +237,25 @@ footer {
   place-self: start center;
   z-index: 1;
 }
-.cv {
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid gray;
+.scroll_container {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+  white-space: nowrap;
+  margin: 15px;
 }
-.cv_sted {
-  list-style-position: inside;
-  font-family: rubik_dirt;
-  font-size: 13px;
-  padding-bottom: 10px;
+.scroll_container img {
+  width: 40%;
 }
+.scroll {
+  aspect-ratio: 2 / 2.5;
+  filter: brightness(60%);
+  object-fit: cover;
+}
+.scroll:hover {
+  filter: brightness(100%);
+}
+
 /* DESKTOP */
 @media (min-width: 850px) {
   main {
@@ -270,6 +279,7 @@ footer {
     font-size: 15px;
     font-family: courier_prime;
   }
+  /* FORSIDE */
   .intro {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -331,5 +341,31 @@ footer {
   }
   .ikoner {
     width: 10%;
+  }
+  /* OM MIG */
+  .om_mig {
+    grid-column: 1 / span 5;
+    text-align: justify;
+    padding-top: 15px;
+  }
+  .citat_mig {
+    padding-top: 15px;
+  }
+  .scroll_container {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .scroll_container img {
+    width: 20%;
+  }
+  .scroll {
+    aspect-ratio: 2 / 2.5;
+    filter: brightness(60%);
+    object-fit: cover;
+  }
+  .scroll:hover {
+    filter: brightness(100%);
   }
 }

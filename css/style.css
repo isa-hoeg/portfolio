@@ -180,6 +180,13 @@ p {
   text-align: center;
   margin: 20px 10px;
 }
+/* OM MIG */
+.img_om_mig {
+  padding: 20px 15px;
+}
+.portraet {
+  border: 1px solid grey;
+}
 @media (min-width: 850px) {
   h1 {
     font-size: 75px;

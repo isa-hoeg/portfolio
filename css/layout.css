@@ -217,7 +217,36 @@ footer {
   border: 1px solid grey;
   align-self: stretch;
 }
+/* OM MIG */
+.om_mig {
+  grid-column: 1 / span 3;
+}
+.img_om_mig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
 
+.lollo {
+  filter: brightness(70%);
+}
+.tekst_img {
+  grid-column: 2;
+  color: black;
+  place-self: start center;
+  z-index: 1;
+}
+.cv {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid gray;
+}
+.cv_sted {
+  list-style-position: inside;
+  font-family: rubik_dirt;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
 /* DESKTOP */
 @media (min-width: 850px) {
   main {

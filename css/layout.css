@@ -115,7 +115,8 @@ footer {
   margin-top: 10px;
 }
 /* forside */
-.intro {
+.intro,
+.intro_tema2_3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -123,7 +124,8 @@ footer {
   grid-column: 4;
   grid-row: 1;
 }
-.introduktion {
+.introduktion,
+.introduktion_tema2_3 {
   grid-column: 1 / span 3;
 }
 .mig_desktop,
@@ -341,6 +343,40 @@ footer {
   }
   .ikoner {
     width: 10%;
+  }
+  /* TEMA 2 & 3 */
+  .intro_tema2_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .introduktion_tema2_3 {
+    grid-row: 1;
+    grid-column: 1 / span 5;
+  }
+  .lodret_tekst {
+    grid-column: 6;
+    padding: 10px;
+    margin-left: 15px;
+  }
+  .t2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+  }
+  .billedtekst {
+    grid-column: 1;
+  }
+  .tekst_t2 {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: justify;
+  }
+  .img_t2 {
+    gap: 15px;
+  }
+  .kode {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   /* OM MIG */
   .om_mig {

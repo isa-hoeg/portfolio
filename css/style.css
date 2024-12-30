@@ -215,6 +215,7 @@ p {
   }
   p {
     font-size: 22px;
+    text-align: justify;
   }
   /* forside */
   .citat {
@@ -244,6 +245,33 @@ p {
     font-size: 22px;
   }
   /* tema 2 & 3 */
+  .billedtekst {
+    font-size: 14px;
+  }
+  .kode {
+    text-align: justify;
+    margin-top: 15px;
+  }
+  .knapper_t2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+  }
+  .knap_til_projekt,
+  .knap_til_figma {
+    font-size: 18px;
+    padding: 7px;
+  }
+  .knap_til_projekt:hover,
+  .knap_til_figma:hover {
+    font-size: 20px;
+  }
+  .knap_t3 {
+    margin: 2rem;
+  }
+
   /* OM MIG */
   .cv_sted {
     font-size: 18px;

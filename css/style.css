@@ -147,6 +147,10 @@ p {
   filter: grayscale(100%);
   border: 1px solid grey;
 }
+.min_computer_img:hover,
+.emnesite_forside:hover {
+  filter: none;
+}
 .billedtekst {
   font-style: oblique;
   font-family: courier_prime;
@@ -179,6 +183,27 @@ p {
 .knap_t3 {
   text-align: center;
   margin: 20px 10px;
+}
+/* TEMA 4 OG 5 */
+.animation_forside {
+  filter: grayscale(100%);
+  border: 1px solid grey;
+}
+.animation_forside:hover {
+  filter: none;
+}
+.t4,
+.t5 {
+  padding: 5px 15px;
+}
+.passionssite,
+.virksomhedssite {
+  filter: grayscale(100%);
+  border: 1px solid grey;
+}
+.passionssite:hover,
+.virksomhedssite:hover {
+  filter: none;
 }
 /* OM MIG */
 .img_om_mig {

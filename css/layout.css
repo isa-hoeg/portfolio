@@ -115,8 +115,7 @@ footer {
   margin-top: 10px;
 }
 /* forside */
-.intro,
-.intro_tema2_3 {
+.intro {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -124,15 +123,21 @@ footer {
   grid-column: 4;
   grid-row: 1;
 }
-.introduktion,
-.introduktion_tema2_3 {
+.introduktion {
   grid-column: 1 / span 3;
 }
 .mig_desktop,
 .stars {
   display: none;
 }
-/* tema 2 & 3 */
+/* tema 2 OG 3 */
+.intro_tema2_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.introduktion_tema2_3 {
+  grid-column: 1 / span 3;
+}
 .img_t2 {
   padding: 15px;
   gap: 10px;
@@ -176,6 +181,12 @@ footer {
   align-self: stretch;
   object-fit: cover;
 }
+.menu_t2:hover,
+.galleri_t2:hover,
+.span_t2:hover,
+.galleri_site:hover {
+  filter: none;
+}
 .kode_del_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -218,6 +229,27 @@ footer {
   filter: grayscale(100%);
   border: 1px solid grey;
   align-self: stretch;
+}
+.styletile_t3:hover,
+.moodboard_t3:hover,
+.matrix_t3:hover,
+.moodboard_style_t3:hover,
+.lofi_t3:hover,
+.hifi_t3:hover {
+  filter: none;
+}
+/* TEMA 4 OG 5 */
+.intro_tema4_5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.introduktion_tema4_5 {
+  grid-column: 1 / span 3;
+}
+.t5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 /* OM MIG */
 .om_mig {

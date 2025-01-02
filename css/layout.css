@@ -89,6 +89,9 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 12px;
+  background-image: url(../img/hero_portfolio.webp);
+  background-size: cover;
+  background-position: center;
 }
 .footer_menu {
   display: flex;
@@ -314,6 +317,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+  background-image: url(../img/hero_portfolio.webp);
+  background-size: contain;
 }
 .img_m_tekst {
   border: 1px solid grey;
@@ -380,6 +385,8 @@ h4 {
     font-size: 15px;
     font-family: courier_prime;
     background-image: url(../img/hero_portfolio.webp);
+    background-size: cover;
+    background-position: center;
   }
   /* FORSIDE */
   .intro {
@@ -430,7 +437,6 @@ h4 {
     display: flex;
     justify-content: space-between;
     padding: 12px;
-    background-image: url(../img/hero_portfolio.webp);
   }
   .footer_menu {
     display: flex;

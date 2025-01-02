@@ -1,4 +1,9 @@
 /* MOBILE */
+
+.hero {
+  background-image: url(../img/hero_portfolio.svg);
+}
+
 header {
   /* position: sticky; */
   top: 0;
@@ -165,7 +170,7 @@ footer {
 .img_2,
 .img_3,
 .img_4 {
-  border: 1px solid gray;
+  border: 1px solid grey;
 }
 .kode {
   display: grid;
@@ -225,7 +230,6 @@ footer {
 .moodboard_style_t3,
 .lofi_t3,
 .hifi_t3 {
-  border: 1px solid gray;
   filter: grayscale(100%);
   border: 1px solid grey;
   align-self: stretch;
@@ -246,11 +250,55 @@ footer {
 .introduktion_tema4_5 {
   grid-column: 1 / span 3;
 }
+.img_t4 {
+  padding: 15px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.start_skaerm,
+.spil_skaermen,
+.levelcomplete_gameover,
+.konstanter_start_js,
+.function_qs,
+.lyde {
+  aspect-ratio: 1.5 / 1;
+  filter: grayscale(100%);
+  border: 1px solid grey;
+  align-self: stretch;
+}
+.start_skaerm:hover,
+.spil_skaermen:hover,
+.levelcomplete_gameover:hover,
+.konstanter_start_js:hover,
+.function_qs:hover,
+.lyde:hover {
+  filter: none;
+}
+/* TEMA 5 */
 .t5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+.video {
+  padding: 10px 20px;
+  filter: grayscale(100%);
+}
+.video:hover {
+  filter: grayscale(100%);
+}
+.hero_passionssite {
+  background-image: url(../img/hero.webp);
+  object-fit: cover;
+}
+.hero_sections {
+  padding: 15px;
+}
+.hero_passionssite {
+  margin-bottom: 10px;
+}
+
 /* OM MIG */
 .om_mig {
   grid-column: 1 / span 3;
@@ -397,11 +445,6 @@ footer {
   }
   .billedtekst {
     grid-column: 1;
-  }
-  .tekst_t2 {
-    grid-column: 2;
-    grid-row: 1;
-    text-align: justify;
   }
   .img_t2 {
     gap: 15px;

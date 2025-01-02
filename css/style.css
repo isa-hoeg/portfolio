@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-img {
+img,
+video {
   width: 100%;
   height: auto;
   display: block;
@@ -37,6 +38,10 @@ html {
 body {
   background-color: rgb(243, 244, 238);
 }
+.hero {
+  background-image: url(../img/hero_portfolio.webp);
+}
+
 h1 {
   font-family: rubik_dirt;
   font-size: 50px;
@@ -63,6 +68,7 @@ p {
   color: var(--primary-color);
   font-size: 15px;
   padding-left: 15px;
+  padding-right: 15px;
 }
 .citat {
   font-family: rubik_dirt;
@@ -156,9 +162,7 @@ p {
   font-family: courier_prime;
   font-size: 12px;
 }
-.tekst_t2 {
-  padding-right: 15px;
-}
+
 .knap_til_projekt,
 .knap_til_figma {
   text-decoration: none;
@@ -192,6 +196,10 @@ p {
 .animation_forside:hover {
   filter: none;
 }
+.knap_t4 {
+  text-align: center;
+  margin: 25px 10px;
+}
 .t4,
 .t5 {
   padding: 5px 15px;
@@ -201,10 +209,26 @@ p {
   filter: grayscale(100%);
   border: 1px solid grey;
 }
+
 .passionssite:hover,
 .virksomhedssite:hover {
   filter: none;
 }
+/* TEMA 5 */
+.knap_t5_passion {
+  text-align: center;
+  margin: 25px 10px;
+}
+.hero_passionssite,
+.hero_virksomhedssite {
+  filter: grayscale(100%);
+  border: 1px solid grey;
+}
+.hero_passionssite:hover,
+.hero_virksomhedssite:hover {
+  filter: none;
+}
+
 /* OM MIG */
 .img_om_mig {
   padding: 20px 15px;
@@ -212,12 +236,27 @@ p {
 .portraet {
   border: 1px solid grey;
 }
-.cv {
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid gray;
+.oplysninger {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.cv_sted {
+.kontaktoplysninger,
+.sprog {
+  border: 1px solid grey;
+  /* border-radius: 40px; */
+  padding: 20px 7px;
+  margin: 7px;
+}
+.sprog {
+  padding-left: 12px;
+}
+.cv {
+  padding: 7px;
+  margin: 10px;
+  border: 1px solid grey;
+}
+.cv_sted,
+.kontakt {
   list-style-position: inside;
   font-family: rubik_dirt;
   font-size: 13px;

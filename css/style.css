@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-img {
+img,
+video {
   width: 100%;
   height: auto;
   display: block;
@@ -37,6 +38,10 @@ html {
 body {
   background-color: rgb(243, 244, 238);
 }
+.hero {
+  background-image: url(../img/hero_portfolio.webp);
+}
+
 h1 {
   font-family: rubik_dirt;
   font-size: 50px;
@@ -63,6 +68,7 @@ p {
   color: var(--primary-color);
   font-size: 15px;
   padding-left: 15px;
+  padding-right: 15px;
 }
 .citat {
   font-family: rubik_dirt;
@@ -147,14 +153,16 @@ p {
   filter: grayscale(100%);
   border: 1px solid grey;
 }
+.min_computer_img:hover,
+.emnesite_forside:hover {
+  filter: none;
+}
 .billedtekst {
   font-style: oblique;
   font-family: courier_prime;
   font-size: 12px;
 }
-.tekst_t2 {
-  padding-right: 15px;
-}
+
 .knap_til_projekt,
 .knap_til_figma {
   text-decoration: none;
@@ -180,6 +188,47 @@ p {
   text-align: center;
   margin: 20px 10px;
 }
+/* TEMA 4 OG 5 */
+.animation_forside {
+  filter: grayscale(100%);
+  border: 1px solid grey;
+}
+.animation_forside:hover {
+  filter: none;
+}
+.knap_t4 {
+  text-align: center;
+  margin: 25px 10px;
+}
+.t4,
+.t5 {
+  padding: 5px 15px;
+}
+.passionssite,
+.virksomhedssite {
+  filter: grayscale(100%);
+  border: 1px solid grey;
+}
+
+.passionssite:hover,
+.virksomhedssite:hover {
+  filter: none;
+}
+/* TEMA 5 */
+.knap_t5_passion {
+  text-align: center;
+  margin: 25px 10px;
+}
+.hero_passionssite,
+.hero_virksomhedssite {
+  filter: grayscale(100%);
+  border: 1px solid grey;
+}
+.hero_passionssite:hover,
+.hero_virksomhedssite:hover {
+  filter: none;
+}
+
 /* OM MIG */
 .img_om_mig {
   padding: 20px 15px;
@@ -187,12 +236,27 @@ p {
 .portraet {
   border: 1px solid grey;
 }
-.cv {
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid gray;
+.oplysninger {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.cv_sted {
+.kontaktoplysninger,
+.sprog {
+  border: 1px solid grey;
+  /* border-radius: 40px; */
+  padding: 20px 7px;
+  margin: 7px;
+}
+.sprog {
+  padding-left: 12px;
+}
+.cv {
+  padding: 7px;
+  margin: 10px;
+  border: 1px solid grey;
+}
+.cv_sted,
+.kontakt {
   list-style-position: inside;
   font-family: rubik_dirt;
   font-size: 13px;
@@ -215,6 +279,7 @@ p {
   }
   p {
     font-size: 22px;
+    text-align: justify;
   }
   /* forside */
   .citat {
@@ -244,6 +309,33 @@ p {
     font-size: 22px;
   }
   /* tema 2 & 3 */
+  .billedtekst {
+    font-size: 14px;
+  }
+  .kode {
+    text-align: justify;
+    margin-top: 15px;
+  }
+  .knapper_t2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+  }
+  .knap_til_projekt,
+  .knap_til_figma {
+    font-size: 18px;
+    padding: 7px;
+  }
+  .knap_til_projekt:hover,
+  .knap_til_figma:hover {
+    font-size: 20px;
+  }
+  .knap_t3 {
+    margin: 2rem;
+  }
+
   /* OM MIG */
   .cv_sted {
     font-size: 18px;

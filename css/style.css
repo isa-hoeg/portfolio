@@ -248,6 +248,11 @@ p {
   padding: 20px 15px;
   background-image: url(../img/hero_portfolio.webp);
 }
+h4 {
+  font-family: rubik_dirt;
+  font-weight: 100;
+  font-size: 12px;
+}
 .portraet {
   border: 1px solid grey;
   background-image: url(../img/hero_portfolio.webp);
@@ -352,6 +357,11 @@ p {
   }
 
   /* OM MIG */
+  h4 {
+    font-family: rubik_dirt;
+    font-weight: 100;
+    font-size: 28px;
+  }
   .cv_sted {
     font-size: 18px;
   }

@@ -38,9 +38,6 @@ html {
 body {
   background-color: rgb(243, 244, 238);
 }
-.hero {
-  background-image: url(../img/hero_portfolio.webp);
-}
 
 h1 {
   font-family: rubik_dirt;
@@ -72,6 +69,7 @@ p {
 }
 .citat {
   font-family: rubik_dirt;
+  font-weight: lighter;
   color: blue;
   font-size: 12px;
   font-style: oblique;
@@ -141,6 +139,7 @@ p {
 /* tema 2 og 3 */
 .anden_h3 {
   font-family: rubik_dirt;
+  font-weight: lighter;
   color: blue;
   padding: 15px;
 }
@@ -201,23 +200,26 @@ p {
   margin: 25px 10px;
 }
 .t4,
-.t5 {
+.t5,
+.t5_virksomhedssite {
   padding: 5px 15px;
 }
 .passionssite,
-.virksomhedssite {
+.virksomhedssite,
+.virksomhedssite_priser {
   filter: grayscale(100%);
   border: 1px solid grey;
 }
-
 .passionssite:hover,
+.virksomhedssite_priser:hover,
 .virksomhedssite:hover {
   filter: none;
 }
 /* TEMA 5 */
-.knap_t5_passion {
+.knap_t5_passion,
+.knap_t5_figma_virksomhed {
   text-align: center;
-  margin: 25px 10px;
+  margin: 18px 10px;
 }
 .hero_passionssite,
 .hero_virksomhedssite {
@@ -228,13 +230,27 @@ p {
 .hero_virksomhedssite:hover {
   filter: none;
 }
-
+.sammenligning {
+  filter: grayscale(100%);
+  border: 1px solid grey;
+}
+.sammenligning:hover {
+  filter: none;
+}
+.knapper_t5_virksomhed {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  padding: 20px 15px;
+}
 /* OM MIG */
 .img_om_mig {
   padding: 20px 15px;
+  background-image: url(../img/hero_portfolio.webp);
 }
 .portraet {
   border: 1px solid grey;
+  background-image: url(../img/hero_portfolio.webp);
 }
 .oplysninger {
   display: grid;
@@ -243,7 +259,6 @@ p {
 .kontaktoplysninger,
 .sprog {
   border: 1px solid grey;
-  /* border-radius: 40px; */
   padding: 20px 7px;
   margin: 7px;
 }

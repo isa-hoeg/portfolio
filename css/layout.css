@@ -12,6 +12,16 @@ header {
   width: 30%;
   padding: 10px;
 }
+/* JS TIL LOGO */
+.logo {
+  transition: transform 2s ease-in-out;
+  /* Glidende overgang ved rotering */
+}
+.rotate {
+  transform: rotate(360deg);
+  /* Roterer billedet 360 grader */
+}
+/* JS TIL LOGO */
 .menu {
   display: flex;
   list-style: none;
@@ -422,6 +432,17 @@ h4 {
     grid-row: 2;
     margin: 25px;
   }
+  /* CSS TIL JS */
+  /* giver mine "stars" på desktop format en rotation ved hjælp af css og js */
+  .stars {
+    transition: transform 2s ease-in-out;
+    /* Glidende overgang ved rotering */
+  }
+  .rotate {
+    transform: rotate(360deg);
+    /* Roterer billedet 360 grader */
+  }
+  /* CSS TIL JS */
   .intro_til_projekter {
     text-align: justify;
   }

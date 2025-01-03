@@ -401,7 +401,7 @@ h4 {
   /* FORSIDE */
   .intro {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6 1fr);
   }
   .mig_desktop {
     display: block;
@@ -475,11 +475,12 @@ h4 {
   /* TEMA 2 & 3 */
   .intro_tema2_3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6 1fr);
   }
   .introduktion_tema2_3 {
     grid-row: 1;
     grid-column: 1 / span 5;
+    margin-top: 20px;
   }
   .lodret_tekst {
     grid-column: 6;
@@ -491,8 +492,20 @@ h4 {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
   }
+  .min_computer_img {
+    grid-column: 1;
+  }
+  .t2_tekst {
+    grid-row: 1;
+    grid-column: 2;
+  }
   .billedtekst {
     grid-column: 1;
+  }
+  .menu_t2 {
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    background-color: white;
   }
   .img_t2 {
     gap: 15px;
@@ -500,6 +513,7 @@ h4 {
   .kode {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 25px 15px;
   }
   /* OM MIG */
   .om_mig {

@@ -130,7 +130,7 @@ footer {
 /* forside */
 .intro {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4 1fr);
 }
 .lodret_tekst {
   grid-column: 4;
@@ -146,7 +146,7 @@ footer {
 /* tema 2 OG 3 */
 .intro_tema2_3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4 1fr);
 }
 .introduktion_tema2_3 {
   grid-column: 1 / span 3;
@@ -253,7 +253,7 @@ footer {
 /* TEMA 4 OG 5 */
 .intro_tema4_5 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4 1fr);
 }
 .introduktion_tema4_5 {
   grid-column: 1 / span 3;
@@ -274,6 +274,8 @@ footer {
   filter: grayscale(100%);
   border: 1px solid grey;
   align-self: stretch;
+  object-fit: contain;
+  background-color: white;
 }
 .start_skaerm:hover,
 .spil_skaermen:hover,
@@ -301,10 +303,9 @@ footer {
   object-fit: cover;
 }
 .hero_sections {
+  display: grid;
+  gap: 10px;
   padding: 15px;
-}
-.hero_passionssite {
-  margin-bottom: 10px;
 }
 .virksomhedssite_tekst {
   padding-top: 10px;
@@ -412,7 +413,7 @@ h4 {
   }
   .introduktion {
     grid-row: 2;
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 5;
     text-align: justify;
   }
   .lodret_tekst {
@@ -514,6 +515,25 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 25px 15px;
+  }
+  /* TEMA 4 OG 5 */
+  .intro_tema4_5 {
+    display: grid;
+    grid-template-columns: repeat(6 1fr);
+  }
+  .introduktion_tema4_5 {
+    grid-row: 1;
+    grid-column: 1 / span 4;
+    margin-top: 20px;
+  }
+  .hero_sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .hero_passionssite,
+  .hero_virksomhedssite {
+    object-fit: cover;
   }
   /* OM MIG */
   .om_mig {

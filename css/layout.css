@@ -151,6 +151,21 @@ footer {
 .introduktion_tema2_3 {
   grid-column: 1 / span 3;
 }
+.arrow {
+  aspect-ratio: 1 / 1;
+  width: 8%;
+}
+.forklaring_til_pil {
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+}
+.pil {
+  font-family: rasa;
+  font-weight: bold;
+  font-size: 16px;
+  color: blue;
+}
 .img_t2 {
   padding: 15px;
   gap: 10px;

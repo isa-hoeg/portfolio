@@ -328,8 +328,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-  background-image: url(../img/hero_portfolio.webp);
-  background-size: contain;
 }
 .img_m_tekst {
   border: 1px solid grey;

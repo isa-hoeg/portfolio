@@ -385,7 +385,27 @@ h4 {
 .scroll:hover {
   filter: brightness(100%);
 }
-
+.oplysninger {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.kontaktoplysninger,
+.sprog,
+.programmer {
+  border: 1px solid grey;
+  padding: 20px 10px;
+  margin: 2px 10px;
+}
+.sprog {
+  padding-left: 12px;
+}
+.programmer {
+  margin-top: 20px;
+}
+.kea_programmer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 /* DESKTOP */
 @media (min-width: 850px) {
   main {

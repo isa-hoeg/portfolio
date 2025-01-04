@@ -224,7 +224,7 @@ p {
 .knap_t5_passion,
 .knap_t5_figma_virksomhed {
   text-align: center;
-  margin: 18px 10px;
+  margin: 20px 10px;
 }
 .hero_passionssite,
 .hero_virksomhedssite {
@@ -261,19 +261,14 @@ h4 {
 .portraet {
   border: 1px solid grey;
 }
-.oplysninger {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.cv_overskrift {
+  font-family: rubik_dirt;
+  font-weight: 100;
+  font-size: 13px;
+  color: blue;
+  padding-bottom: 10px;
 }
-.kontaktoplysninger,
-.sprog {
-  border: 1px solid grey;
-  padding: 20px 10px;
-  margin: 2px 10px;
-}
-.sprog {
-  padding-left: 12px;
-}
+
 .cv {
   padding: 7px;
   margin: 20px 10px;
@@ -286,7 +281,8 @@ h4 {
   font-size: 13px;
   padding-bottom: 10px;
 }
-.cv_sted:hover {
+.cv_sted:hover,
+.kontakt:hover {
   font-size: 16px;
   color: blue;
 }
@@ -366,10 +362,15 @@ h4 {
     font-weight: 100;
     font-size: 28px;
   }
-  .cv_sted {
+  .cv_overskrift {
     font-size: 18px;
   }
-  .cv_sted:hover {
+  .cv_sted,
+  .kontakt {
+    font-size: 18px;
+  }
+  .cv_sted:hover,
+  .kontakt:hover {
     font-size: 22px;
   }
 }

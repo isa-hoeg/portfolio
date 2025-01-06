@@ -152,6 +152,12 @@ p {
 .t3 {
   padding: 5px 15px;
 }
+.pil {
+  font-family: rasa;
+  font-weight: bold;
+  font-size: 12px;
+  color: blue;
+}
 .min_computer_img,
 .emnesite_forside {
   filter: grayscale(100%);
@@ -166,7 +172,6 @@ p {
   font-family: courier_prime;
   font-size: 12px;
 }
-
 .knap_til_projekt,
 .knap_til_figma {
   text-decoration: none;
@@ -335,6 +340,12 @@ h4 {
   .kode {
     text-align: justify;
     margin-top: 15px;
+  }
+  .pil {
+    font-family: rasa;
+    font-weight: bold;
+    font-size: 16px;
+    color: blue;
   }
   .knapper_t2 {
     display: grid;

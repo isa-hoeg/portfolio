@@ -151,20 +151,19 @@ footer {
 .introduktion_tema2_3 {
   grid-column: 1 / span 3;
 }
+.billedtekst_t2 {
+  padding-bottom: 10px;
+  font-style: oblique;
+  font-family: courier_prime;
+  font-size: 12px;
+}
 .arrow {
-  aspect-ratio: 1 / 1;
-  width: 8%;
+  display: none;
 }
 .forklaring_til_pil {
   padding: 20px 15px;
   display: flex;
   align-items: center;
-}
-.pil {
-  font-family: rasa;
-  font-weight: bold;
-  font-size: 16px;
-  color: blue;
 }
 .img_t2 {
   padding: 15px;
@@ -526,8 +525,16 @@ h4 {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
   }
+  .billedtekst_t2 {
+    font-size: 14px;
+  }
   .min_computer_img {
     grid-column: 1;
+  }
+  .arrow {
+    display: block;
+    aspect-ratio: 1 / 1;
+    width: 8%;
   }
   .t2_tekst {
     grid-row: 1;

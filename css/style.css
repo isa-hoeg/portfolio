@@ -219,6 +219,7 @@ p {
 .virksomhedssite_priser {
   filter: grayscale(100%);
   border: 1px solid grey;
+  margin-top: 15px;
 }
 .passionssite:hover,
 .virksomhedssite_priser:hover,
@@ -366,12 +367,6 @@ h4 {
   .knap_t3 {
     margin: 2rem;
   }
-
-  /* TEMA 4 & 5 */
-  .virksomhedssite_priser {
-    margin-top: 15px;
-  }
-
   /* OM MIG */
   h4 {
     font-family: rubik_dirt;

@@ -9,7 +9,7 @@ header {
   font-family: courier_prime;
 }
 .logo img {
-  width: 18%;
+  width: 35%;
   padding: 12px;
 }
 /* JS TIL LOGO */
@@ -19,8 +19,8 @@ header {
 }
 .rotate {
   transform: rotate(360deg);
-  /* Roterer billedet 360 grader */
 }
+/* Roterer billedet 360 grader */
 /* JS TIL LOGO */
 .menu {
   display: flex;
@@ -412,7 +412,7 @@ h4 {
     margin: 0 auto;
   }
   .logo img {
-    width: 30%;
+    width: 50%;
     padding: 12px 25px;
   }
   .menu {
